@@ -528,6 +528,7 @@ async function tryUnlock(){
 }
 
 function unlock(){
+  document.title = "classes";
   document.getElementById("lock").style.transition="opacity .3s";
   document.getElementById("lock").style.opacity="0";
   setTimeout(()=>{
